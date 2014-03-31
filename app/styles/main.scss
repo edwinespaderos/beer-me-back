@@ -35,6 +35,15 @@ hr {
   border-color: #dedede;
 }
 
+.container{
+  width: 30%;
+  padding-top: 5%;
+}
+
+.form-control{
+  margin-bottom: 10px;
+}
+
 .wrapper, .row {
    height: 100%;
    margin-left:0;
@@ -269,6 +278,11 @@ small.text-muted {
 
 /* adjust the contents on smaller devices */
 @media (max-width: 768px) {
+  
+  .container {
+    width: 90%;
+    padding-top: 10%
+  }
 
   .column .padding {
     padding: 0;
